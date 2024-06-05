@@ -1,0 +1,22 @@
+.font-caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.page-header {
+    font-size: max(3em, 10vw);
+}
